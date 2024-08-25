@@ -25,14 +25,20 @@ Python Automation Project: Sends a daily email at 06:00a.m. with a report on the
 
 9. Replace smtp_username variable with the sender_email
 
-10. Replace smtp_password variable with your email's password\n
-    a. If you are using gmail do the following:\n
-      i. Enable Two-Factor Authentication\n
-      ii. Go to https://myaccount.google.com/u/3/apppasswords\n
-      iii. Create a new App Password\n
+10. Replace smtp_password variable with your email's password
+    
+    a. If you are using gmail do the following:
+    
+      i. Enable Two-Factor Authentication
+    
+      ii. Go to https://myaccount.google.com/u/3/apppasswords
+    
+      iii. Create a new App Password
+    
       iv. Replace smtp_password with your App Password (including whitespaces)
 
 11. Run the program and leave it open
+
     a. I leave it running in a separate desktop screen (windows_key + tab)
 
 Notes:
