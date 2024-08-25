@@ -4,8 +4,16 @@ Python Automation Project: Sends a daily email at 06:00a.m. with a report on the
 [INSTRUCTIONS FOR USE]
 
 1. Download this code as zip
+
+2. In any IDE build a python virtual environment
+
+   a. To do this in VS Code
+
+      i. Open the folder this code downloads to
+
+      ii. Control+Shift+P --> Type 'env' --> Create environment --> .venv --> Python
    
-2. Register at openweathermap.org
+3. Register at openweathermap.org
    
    a. Click on your username
 
