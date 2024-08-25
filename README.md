@@ -6,26 +6,30 @@ Python Automation Project: Sends a daily email at 06:00a.m. with a report on the
 1. Download this code as zip
    
 2. Register at openweathermap.org
+   
    a. Click on your username
+
    b. Click on 'My API Keys'
+   
    c. Copy default api key
 
-3. In any IDE open weatheremail.py
+4. In any IDE open weatheremail.py
 
-4. create a new file 'api_key.txt'
+5. create a new file 'api_key.txt'
+
    a. copy and paste your api key
 
-5. Change the api_key variable to the path where you have your api_key.txt file
+6. Change the api_key variable to the path where you have your api_key.txt file
 
-6. Change the location variable to your location
+7. Change the location variable to your location
 
-7. Replace sender_email variable with your email
+8. Replace sender_email variable with your email
 
-8. Replace recipient_emial variable with the email you'd like to receive the daily email to
+9. Replace recipient_emial variable with the email you'd like to receive the daily email to
 
-9. Replace smtp_username variable with the sender_email
+10. Replace smtp_username variable with the sender_email
 
-10. Replace smtp_password variable with your email's password
+11. Replace smtp_password variable with your email's password
     
     a. If you are using gmail do the following:
     
@@ -37,7 +41,7 @@ Python Automation Project: Sends a daily email at 06:00a.m. with a report on the
     
       iv. Replace smtp_password with your App Password (including whitespaces)
 
-11. Run the program and leave it open
+12. Run the program and leave it open
 
     a. I leave it running in a separate desktop screen (windows_key + tab)
 
