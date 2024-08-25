@@ -51,6 +51,7 @@ In my example, "06:00" is the time (It uses a 24hr clock and local time)
 
 If you would like to use Celsius isntead of Fahrenheit, find the result variable 
 [result = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={location}&units=imperial&appid={api_key}')]
+
 Replace units=imperial with units=metric
 Be sure to replace any 'F' found within the variables titled first, second, and third with 'C'
 
