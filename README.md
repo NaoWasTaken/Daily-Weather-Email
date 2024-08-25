@@ -54,6 +54,7 @@ Python Automation Project: Sends a daily email at 06:00a.m. with a report on the
     a. I leave it running in a separate desktop screen (windows_key + tab)
 
 Notes:
+
 Feel free to change any of the text by changing the body variable. Time the email is sent can be changed in the schedule.every().day.at("06:00").do(send_email) line.
 
 In my example, "06:00" is the time (It uses a 24hr clock and local time)
