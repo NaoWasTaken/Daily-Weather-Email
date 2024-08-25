@@ -5,10 +5,10 @@ from email.mime.text import MIMEText
 import schedule
 import time
 
-api_key = open('C:\\Users\\avibo\\Desktop\\Weather\\api_key.txt', 'r').read()
+api_key = open('C:\\Users\\...\\Desktop\\Weather\\api_key.txt', 'r').read()
 
 while True:
-    location = 'Rosedale'
+    location = '...'
 
     result = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={location}&units=imperial&appid={api_key}')
     if result.json()['cod'] == '404':
@@ -29,8 +29,8 @@ third = f"Today's high is {high}°F, and the low is {low}°F."
 
 def send_email():
 
-    sender_email = "dailyweatherservicenao@gmail.com"
-    receiver_email = "aviboyd04@gmail.com"
+    sender_email = "sender@gmail.com"
+    receiver_email = "recipient@gmail.com"
     subject = "Daily Weather"
 
     msg = MIMEMultipart()
@@ -43,8 +43,8 @@ def send_email():
 
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_username = "dailyweatherservicenao@gmail.com"
-    smtp_password = "hsoi loko qhfa molq"
+    smtp_username = "sender@gmail.com"
+    smtp_password = "Google App Password"
 
     server = smtplib.SMTP(smtp_server, 587)
     server.starttls()
